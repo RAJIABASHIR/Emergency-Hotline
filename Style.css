@@ -108,10 +108,10 @@
   font-size: 15px;
   color: #111827;
 }
-
 .history-title .icon {
-  font-size: 1.2rem;
-  color: #374151;
+  background: #fce7f3;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
 }
 
 .clear-btn {
@@ -129,6 +129,7 @@
   background: #15803d;
 }
 
+/* ---------- History List Items ---------- */
 .history-list {
   display: flex;
   flex-direction: column;
