@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency Service Directory</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Emergency Service Directory</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#f1f7f3] text-gray-900">
+  <header class="bg-white/80 backdrop-blur-sm shadow-sm border-b sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-3 flex items-center justify-between h-16">
+      <div class="flex items-center gap-2">
+        <img src="./assets/logo.png" alt="" class="w-8 h-8" />
+        <div class="leading-tight">
+          <div class="font-extrabold text-emerald-800 text-sm">Emergency</div>
+          <div class="font-extrabold text-emerald-800 text-sm -mt-0.5">Service</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <div class="px-3 py-1 rounded-full border bg-gray-50 font-bold flex items-center gap-1 text-sm">
+            <img src="./assets/heart.png" alt="" class="w-5 h-5">
+          <span id="heartCount">0</span> 
+        </div>
+        <div class="px-3 py-1 rounded-full border bg-emerald-50 font-bold flex items-center gap-1 text-sm">
+            <img src="./assets/coin.png" alt="" class="w-5 h-5">
+          <span id="coinCount">100</span>
+        </div>
+        <div class="px-3 py-1 rounded-full border bg-green-600 text-white font-bold flex items-center gap-1 text-sm">
+          <span id="copyCount">0</span> Copy
+        </div>
+      </div>
+    </div>
+  </header>
+  </body>
 </html>
